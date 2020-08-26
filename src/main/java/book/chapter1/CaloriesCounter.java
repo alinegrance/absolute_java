@@ -1,4 +1,4 @@
-package chapter1;
+package book.chapter1;
 
 /* EXERCICE 1:
        One way to measure the amount of energy that is expended during exercise is to

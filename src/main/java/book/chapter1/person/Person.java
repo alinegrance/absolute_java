@@ -1,4 +1,4 @@
-package chapter1.person;
+package book.chapter1.person;
 
 /* Practicing the creation of a class from scratch */
 

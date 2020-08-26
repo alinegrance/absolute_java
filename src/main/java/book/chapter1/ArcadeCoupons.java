@@ -1,4 +1,4 @@
-package chapter1;
+package book.chapter1;
 
 /* EXERCICE 2:
         The video game machines at your local arcade output coupons according to how

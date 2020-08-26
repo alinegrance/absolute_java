@@ -1,4 +1,4 @@
-package chapter1.person;
+package book.chapter1.person;
 
 /* Main that uses the Person class */
 
