@@ -4,6 +4,12 @@ package book.chapter1.person;
 
 public class PersonMain {
 
+    public static void celebrateBirthday(Person p) {
+        // ...
+        p.increaseAge(1);
+        // ...
+    }
+
     public static void main(String[] args) {
         Person mary = new Person("Mary", 28, 1.63, "female", 65);
         Person john = new Person("John",28, 1.67, "male", 80);
@@ -18,5 +24,9 @@ public class PersonMain {
         System.out.println("Mary has " + mary.getAge() + " years");
 
         System.out.println("Mary's height is " + mary.getHeight() + " m");
+
+        celebrateBirthday(mary);
+
+        System.out.println("Mary has " + mary.getAge() + " years");
     }
 }
