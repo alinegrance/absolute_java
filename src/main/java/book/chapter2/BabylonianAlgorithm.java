@@ -26,15 +26,19 @@ public class BabylonianAlgorithm {
         
         double root = n / guess;
         guess = (guess + root) / 2;
+        System.out.println(guess);
 
         root = n / guess;
         guess = (guess + root) / 2;
+        System.out.println(guess);
 
         root = n / guess;
         guess = (guess + root) / 2;
+        System.out.println(guess);
 
         root = n / guess;
         guess = (guess + root) / 2;
+        System.out.println(guess);
 
         root = n / guess;
         guess = (guess + root) / 2;
